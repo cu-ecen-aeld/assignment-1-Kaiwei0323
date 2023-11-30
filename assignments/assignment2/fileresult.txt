@@ -1,0 +1,4 @@
+kaiwei@Kaiwei:~/Linux_Programming/Assignments/Assignment2/finder-app$ touch writer.c
+kaiwei@Kaiwei:~/Linux_Programming/Assignments/Assignment2/finder-app$ make -e CROSS_COMPILE=aarch64-none-linux-gnu- > /home/kaiwei/Linux_Programming/Assignments/Assignment2/assignments/assignment2/fileresult.txt
+aarch64-none-linux-gnu-gcc  -g -Wall -O3 -std=c11     -c -o writer.o writer.c
+aarch64-none-linux-gnu-gcc  -g -Wall -O3 -std=c11   -o writer writer.o
